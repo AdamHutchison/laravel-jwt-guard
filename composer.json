@@ -1,0 +1,27 @@
+{
+  "name": "adamhutchison/laravel-jwt-guard",
+  "description": "A JWT guard for laravel",
+  "require": {
+    "laravel/laravel": "^6.5",
+    "firebase/php-jwt": "^5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Hutchison",
+      "email": "adamcraighutchison@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JWTGuard\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JWTGuard\\JWTGuardServiceProvider"
+      ]
+    }
+  }
+}
