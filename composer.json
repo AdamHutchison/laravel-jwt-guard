@@ -2,8 +2,10 @@
   "name": "adamhutchison/laravel-jwt-guard",
   "description": "A JWT guard for laravel",
   "require": {
-    "laravel/laravel": "^6.5",
     "firebase/php-jwt": "^5.0"
+  },
+  "require-dev": {
+    "laravel/laravel": "^6.5"
   },
   "license": "MIT",
   "authors": [
