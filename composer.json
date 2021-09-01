@@ -5,7 +5,7 @@
     "firebase/php-jwt": "^5.0"
   },
   "require-dev": {
-    "laravel/laravel": "^6.5"
+    "laravel/laravel": "^8.4"
   },
   "license": "MIT",
   "authors": [
